@@ -39,6 +39,13 @@ public class SnapTeleportationProvider : LocomotionProvider
     XRInputValueReader<Vector2> _rightHandMoveInput = new XRInputValueReader<Vector2>("Right Hand Move");
     #endregion
 
+    #region PUBLIC_PROPERTIES
+    /// <summary>
+    /// The layer to use for interaction.
+    /// </summary>
+    public LayerMask LayerMask { get { return _layerMask; } set { _layerMask = value; } }
+    #endregion
+
     #region UNITY_METHODS
     /// <summary>
     /// See <see cref="MonoBehaviour"/>.
