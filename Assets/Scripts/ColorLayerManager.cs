@@ -5,9 +5,6 @@ using UnityEngine.InputSystem;
 public class ColorLayerManager : MonoBehaviour
 {
     #region PRIVATE_FIELDS
-    [SerializeField]
-    private InputActionReference switchColor;
-
     private XROrigin _xROrigin;
 
     private LayerMask _currentColorLayer;
@@ -18,7 +15,7 @@ public class ColorLayerManager : MonoBehaviour
 
     [SerializeField]
     [Tooltip("The default color layer the player is on.")]
-    private LayerMask _defaultColorLayer;
+    private LayerMask _defaultColorLayer, testColor;
     #endregion
 
     #region UNITY_METHODS
@@ -39,6 +36,13 @@ public class ColorLayerManager : MonoBehaviour
         _snapTeleportationProvider.LayerMask += colorLayer;
 
         _currentColorLayer = colorLayer;
+    }
+
+    public void SetColorLayer(string color)
+    {
+        
+        LayerMask colorLayer = 1 << LayerMask.NameToLayer(color);
+        SetColorLayer(colorLayer);
     }
     #endregion
 }
