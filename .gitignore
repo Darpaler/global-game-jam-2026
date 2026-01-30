@@ -20,6 +20,10 @@
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
+# Asset Packs. These will be imported externally.
+[Aa]ssets/Hivemind/
+[Aa]ssets/Hivemind.meta
+
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
