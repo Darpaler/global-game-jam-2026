@@ -885,7 +885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 128b523b354954a429c455acdb06513e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColorLayerManager
-  _faceSocket: {fileID: 2940577349836024588}
+  _faceSocket: {fileID: 6481185252114257186}
   _snapTeleportationProvider: {fileID: 93002168660495456}
   _defaultColorLayer:
     serializedVersion: 2
@@ -1664,7 +1664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5560438985011721412}
   - component: {fileID: 3991080072656451753}
-  - component: {fileID: 2940577349836024588}
+  - component: {fileID: 6481185252114257186}
   m_Layer: 0
   m_Name: Face Body Socket
   m_TagString: Untagged
@@ -1710,7 +1710,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2940577349836024588
+--- !u!114 &6481185252114257186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1719,14 +1719,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6413633691254203144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 013862d9caf22fa4fa5928e24efea211, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSocketInteractor
   m_InteractionManager: {fileID: 0}
   m_InteractionLayers:
-    m_Bits: 2
+    m_Bits: 4294967295
   m_Handedness: 0
-  m_AttachTransform: {fileID: 4796103038970670171}
+  m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -1741,36 +1741,13 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7424556936868465337}
-        m_TargetAssemblyTypeName: ColorLayerManager, Assembly-CSharp
-        m_MethodName: SetColorLayer
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Red
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7424556936868465337}
-        m_TargetAssemblyTypeName: ColorLayerManager, Assembly-CSharp
-        m_MethodName: SetColorLayer
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Gray
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
+  m_StartingSelectFilters:
+  - {fileID: 6481185252114257186}
   m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
@@ -1782,6 +1759,8 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+  _itemType: {fileID: 11400000, guid: 81e157422cd9b354e8638d5996b3e739, type: 2}
+  _consumeItem: 0
 --- !u!1 &7692389931624572726
 GameObject:
   m_ObjectHideFlags: 0
