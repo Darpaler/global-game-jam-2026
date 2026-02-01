@@ -6,7 +6,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 377906965176518861}
+    m_TransformParent: {fileID: 6327349759647136269}
     m_Modifications:
     - target: {fileID: 1030973058, guid: abc00000000010328524846129684454, type: 3}
       propertyPath: m_Name
@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1030973059, guid: abc00000000010328524846129684454, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.675
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1030973059, guid: abc00000000010328524846129684454, type: 3}
       propertyPath: m_LocalPosition.y
@@ -42,15 +42,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1030973059, guid: abc00000000010328524846129684454, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1030973059, guid: abc00000000010328524846129684454, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1030973059, guid: abc00000000010328524846129684454, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1030973059, guid: abc00000000010328524846129684454, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -65,7 +65,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 221626806491890748, guid: abc00000000010328524846129684454, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abc00000000010328524846129684454, type: 3}
@@ -82,9 +83,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 82013497579219940, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 858059596479552261, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
       propertyPath: m_Name
       value: Floor Tile Mosaic 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3141232193697740493, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6336595737146975137, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -126,17 +135,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8057245518818404030, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8357533402834634101, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6812395037074971243, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4828441366832096225, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 1293600321842549025, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
       insertIndex: 0
       addedObject: {fileID: 326504710120221405}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
---- !u!4 &377906965176518861 stripped
+--- !u!4 &6327349759647136269 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4828441366832096225, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1293600321842549025, guid: 28fd6c826c172c349b1eba7af06c973e, type: 3}
   m_PrefabInstance: {fileID: 5061071499149585196}
   m_PrefabAsset: {fileID: 0}
