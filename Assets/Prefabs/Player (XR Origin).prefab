@@ -887,9 +887,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ColorLayerManager
   _faceSocket: {fileID: 6481185252114257186}
   _snapTeleportationProvider: {fileID: 93002168660495456}
+  _colorVolume: {fileID: 0}
   _defaultColorLayer:
     serializedVersion: 2
     m_Bits: 64
+  _defaultVolumeProfile: {fileID: 0}
 --- !u!1 &1354785298606047556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,7 +2235,7 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 8
-  _maxTeleportationDistance: 30
+  _maxTeleportationDistance: 3
   _debounceTime: 0.5
   _enableStrafing: 1
   _leftHandMoveInput:
