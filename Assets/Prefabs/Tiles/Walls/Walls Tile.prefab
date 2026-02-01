@@ -639,6 +639,38 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.9997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.014804082
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377395}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377399}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377403}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[3].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377407}
     - target: {fileID: 1030972335, guid: abc00000000003030360828074413383, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -741,6 +773,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -804,6 +848,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -866,6 +922,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -954,6 +1022,38 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.9997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.014804082
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377395}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377399}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377403}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[3].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377407}
     - target: {fileID: 1030972335, guid: abc00000000003030360828074413383, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1057,6 +1157,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -1119,6 +1231,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1183,6 +1307,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -1245,6 +1381,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1333,6 +1481,38 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.9997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.014804082
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377395}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377399}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377403}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[3].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 3489551720307377407}
     - target: {fileID: 1030972335, guid: abc00000000003030360828074413383, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1435,6 +1615,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -1522,6 +1714,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.9997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030972333, guid: abc00000000003030360828074413383, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.014804082
+      objectReference: {fileID: 0}
     - target: {fileID: 1030972335, guid: abc00000000003030360828074413383, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1570,6 +1778,26 @@ PrefabInstance:
 --- !u!4 &3489551720307377390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1030972332, guid: abc00000000003030360828074413383, type: 3}
+  m_PrefabInstance: {fileID: 3489551720524359490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3489551720307377395 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1030972337, guid: abc00000000003030360828074413383, type: 3}
+  m_PrefabInstance: {fileID: 3489551720524359490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3489551720307377399 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1030972341, guid: abc00000000003030360828074413383, type: 3}
+  m_PrefabInstance: {fileID: 3489551720524359490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3489551720307377403 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1030972345, guid: abc00000000003030360828074413383, type: 3}
+  m_PrefabInstance: {fileID: 3489551720524359490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3489551720307377407 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1030972349, guid: abc00000000003030360828074413383, type: 3}
   m_PrefabInstance: {fileID: 3489551720524359490}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3667800634225108757
@@ -1623,6 +1851,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1687,6 +1927,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -1749,6 +2001,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1813,6 +2077,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -1875,6 +2151,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1939,6 +2227,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -2001,6 +2301,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2065,6 +2377,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -2127,6 +2451,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2191,6 +2527,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -2253,6 +2601,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2317,6 +2677,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -2379,6 +2751,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2443,6 +2827,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -2506,6 +2902,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1482761192784415390, guid: abc00000000005693967115580990232, type: 3}
@@ -2568,6 +2976,18 @@ PrefabInstance:
     - target: {fileID: 1030973971, guid: abc00000000005693967115580990232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030973972, guid: abc00000000005693967115580990232, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
