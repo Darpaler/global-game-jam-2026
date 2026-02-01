@@ -1321,7 +1321,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5419661742878186918}
   - component: {fileID: 2636239555714876142}
-  - component: {fileID: 7709232872025438439}
   - component: {fileID: 2388978152641467200}
   m_Layer: 0
   m_Name: Non Post Processing
@@ -1396,14 +1395,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &7709232872025438439
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3377174618487054291}
-  m_Enabled: 1
 --- !u!114 &2388978152641467200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2375,6 +2366,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   _maxTeleportationDistance: 3
+  _teleportRaycastOffsetY: 1.1
   _debounceTime: 0.5
   _enableStrafing: 1
   _leftHandMoveInput:
