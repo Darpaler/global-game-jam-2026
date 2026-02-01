@@ -23,6 +23,9 @@ public class SnapTeleportationProvider : LocomotionProvider
     private float _maxTeleportationDistance = 15f;
 
     [SerializeField]
+    private float _teleportRaycastOffsetY;
+
+    [SerializeField]
     [Tooltip("The amount of time that the system will wait before starting another snap move.")]
     float _debounceTime = 0.5f;
 
@@ -110,7 +113,7 @@ public class SnapTeleportationProvider : LocomotionProvider
             return null;
 
         RaycastHit hit;
-        Vector3 rayOrigin = mediator.xrOrigin.transform.position;
+        Vector3 rayOrigin = mediator.xrOrigin.transform.position + new Vector3 (0, _teleportRaycastOffsetY, 0);
         
         Vector3 rayForward = mediator.xrOrigin.Camera.transform.forward;
         rayForward.y = 0;
