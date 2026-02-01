@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.55
+  m_FogDensity: 0.45
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -10231,7 +10231,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 11b5bfdfe8b8b094d9d97adfb1013df8, type: 2}
+  sharedProfile: {fileID: 11400000, guid: d4360019598238745aa04a52bec85974, type: 2}
 --- !u!4 &1919183517
 Transform:
   m_ObjectHideFlags: 0

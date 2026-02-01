@@ -1,6 +1,7 @@
 using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
@@ -19,15 +20,23 @@ public class ColorLayerManager : MonoBehaviour
     private SnapTeleportationProvider _snapTeleportationProvider;
 
     [SerializeField]
+    [Tooltip("The volume to change the color of.")]
+    private Volume _colorVolume;
+
+    [SerializeField]
     [Tooltip("The default color layer the player is on.")]
     private LayerMask _defaultColorLayer;
+
+    [SerializeField]
+    [Tooltip("The default volume profile for that color layer.")]
+    private VolumeProfile _defaultVolumeProfile;
     #endregion
 
     #region UNITY_METHODS
     private void Start()
     {
         _xROrigin = GetComponent<XROrigin>();
-        SetColorLayer(_defaultColorLayer);
+        SetColorLayer(_defaultColorLayer, _defaultVolumeProfile);
     }
 
     private void OnEnable()
@@ -48,17 +57,17 @@ public class ColorLayerManager : MonoBehaviour
     {
         Mask mask = args.interactableObject.transform.GetComponent<Mask>();
         if (mask)
-            SetColorLayer(mask.colorLayer);
+            SetColorLayer(mask.ColorLayer, mask.VolumeProfile);
     }
 
     private void SetColorLayer(SelectExitEventArgs args)
     {
-        SetColorLayer(_defaultColorLayer);
+        SetColorLayer(_defaultColorLayer, _defaultVolumeProfile);
     }
     #endregion
 
     #region PUBLIC_METHODS
-    public void SetColorLayer(LayerMask colorLayer)
+    public void SetColorLayer(LayerMask colorLayer, VolumeProfile volumeProfile)
     {
         _xROrigin.Camera.cullingMask -= _currentColorLayer;
         _xROrigin.Camera.cullingMask += colorLayer;
@@ -67,12 +76,8 @@ public class ColorLayerManager : MonoBehaviour
         _snapTeleportationProvider.LayerMask += colorLayer;
 
         _currentColorLayer = colorLayer;
-    }
 
-    public void SetColorLayer(string color)
-    {
-        LayerMask colorLayer = 1 << LayerMask.NameToLayer(color);
-        SetColorLayer(colorLayer);
+        _colorVolume.profile = volumeProfile;
     }
     #endregion
 }
