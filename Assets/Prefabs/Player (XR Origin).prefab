@@ -2581,6 +2581,10 @@ MonoBehaviour:
     m_InputActionReference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
+  teleportAudio:
+  - {fileID: 8300000, guid: a6773126c7eff1e43b8e9648b75193b7, type: 3}
+  - {fileID: 8300000, guid: c1651447069125b4bb70748e6396cfce, type: 3}
+  - {fileID: 8300000, guid: 42386895178a4a54f95617a04b433a33, type: 3}
 --- !u!1 &9074393794183311332
 GameObject:
   m_ObjectHideFlags: 0

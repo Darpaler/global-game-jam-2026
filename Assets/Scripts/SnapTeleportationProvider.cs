@@ -40,6 +40,10 @@ public class SnapTeleportationProvider : LocomotionProvider
     [SerializeField]
     [Tooltip("Reads input data from the right hand controller. Input Action must be a Value action type (Vector 2).")]
     XRInputValueReader<Vector2> _rightHandMoveInput = new XRInputValueReader<Vector2>("Right Hand Move");
+
+    [SerializeField]
+    [Tooltip("The send that plays when you teleport.")]
+    private AudioClip[] teleportAudio;
     #endregion
 
     #region PUBLIC_PROPERTIES
@@ -89,6 +93,7 @@ public class SnapTeleportationProvider : LocomotionProvider
         {
             _timeStarted = Time.time;
             target.RequestTeleport();
+            AudioSource.PlayClipAtPoint(teleportAudio[Random.Range(0, teleportAudio.Length)], target.transform.position);
         }
     }
     #endregion
